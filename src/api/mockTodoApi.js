@@ -3,20 +3,20 @@ import delay from './delay';
 const todos = [
     {
         id: 1,
-        title: "title 1",
+        title: "Create list of books to read",
         status: "Completed"
     },
     {
         id: 2,
-        title: "title 2",
+        title: "Create list of youtube tutorials to watch",
         status: "Completed"
     },
     {
         id: 3,
-        title: "title 3",
+        title: "Create list of podcast to list",
         status: "Completed"
     }
-]
+];
 
     function replaceAll(str, find, replace) {
         return str.replace(new RegExp(find, 'g'), replace);
